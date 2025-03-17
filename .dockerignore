@@ -1,0 +1,11 @@
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.swo
+*.a
+*.pyproj
+*.log
+*.tmp
+*.bak

@@ -1,0 +1,6 @@
+langdetect
+beautifulsoup4
+pymupdf
+python-docx
+spacy
+requests
