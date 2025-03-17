@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='my_python_package',
+    name='parser',
     version='0.1',
     packages=find_packages(),
     install_requires=[
