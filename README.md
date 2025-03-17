@@ -12,8 +12,8 @@
 
 1. **Клонируйте репозиторий**:
    ```bash
-   git clone https://github.com/ErmolenkoSV/text-analyzer.git
-   cd text-analyzer
+   git clone https://github.com/ErmolenkoSV/group_pm/blob/main/LAB1_AC.ipynb
+   cd LAB1_AC.ipynb
 Установите необходимые Python-библиотеки:
 
 Copy
