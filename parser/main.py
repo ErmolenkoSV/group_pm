@@ -1,11 +1,11 @@
 def main():
-    from pdf_processor import extract_text_from_pdf
-    from docx_processor import extract_text_from_docx
-    from doc_processor import extract_text_from_doc
-    from djvu_processor import extract_text_from_djvu
-    from html_parser import parse_html
-    from text_analyzer import analyze_text
-
+    from .pdf_processor import extract_text_from_pdf
+    from .docx_processor import extract_text_from_docx
+    from .doc_processor import extract_text_from_doc
+    from .djvu_processor import extract_text_from_djvu
+    from .html_parser import parse_html
+    from .text_analyzer import analyze_text
+    
     # Запрос путей к файлам и URL у пользователя
     pdf_path = input("Введите путь к PDF файлу (или нажмите Enter, чтобы пропустить): ")
     docx_path = input("Введите путь к DOCX файлу (или нажмите Enter, чтобы пропустить): ")
