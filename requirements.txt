@@ -1,6 +1,6 @@
+pymupdf
+spacy
+python-docx
 langdetect
 beautifulsoup4
-pymupdf
-python-docx
-spacy
 requests
