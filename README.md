@@ -13,7 +13,8 @@
 2. Клонируйте репозиторий с GitHub:
 
    ```bash
-   git clone https://github.com/ErmolenkoSV/group_pm
+   git clone git clone https://github.com/ErmolenkoSV/group_pm.git
+
 Перейдите в папку проекта:
 
 Copy
