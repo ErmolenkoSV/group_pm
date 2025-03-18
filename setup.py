@@ -14,7 +14,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'my_python_app=parser.main:main',
+            'my_parser=parser.main:main',
         ],
     },
 )
