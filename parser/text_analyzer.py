@@ -25,7 +25,7 @@ def analyze_text(text):
     doc = nlp(text)
     analyze = []
     for token in doc:
-        analyze.append({'text':token.text,'lemma':token.lemma_,'position':token.pos_,'dependency':token.dep_})
-
+        analyze.append({'text': token.text, 'lemma': token.lemma_, 'position': token.pos_, 'dependency': token.dep_})
+    print(analyze)
     return analyze
 
