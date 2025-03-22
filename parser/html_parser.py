@@ -1,6 +1,8 @@
 from bs4 import BeautifulSoup
 import requests
 
+
+
 def parse_html(url):
     try:
         response = requests.get(url)
@@ -10,10 +12,7 @@ def parse_html(url):
             soup = BeautifulSoup(html_content, 'html.parser')
             paragraphs = soup.find_all('p')
             full_text = ' '.join(paragraph.text.strip() for paragraph in paragraphs)
-            print("Извлеченный текст из HTML:")
-            print(full_text)
-            analyze_text(full_text)
-        else:
-            print(f"Ошибка при загрузке страницы: {response.status_code}")
+            return full_text
     except Exception as e:
         print(f"Ошибка при парсинге HTML: {e}")
+        return None
