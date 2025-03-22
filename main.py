@@ -22,24 +22,19 @@ def main():
 
     if docx_path:
         docx_text = extract_text_from_docx(docx_path)
-        print("Извлеченный текст из DOCX:")
-        print(docx_text)
         analyze_text(docx_text)
 
     if doc_path:
         doc_text = extract_text_from_doc(doc_path)
-        print("Извлеченный текст из DOC:")
-        print(doc_text)
         analyze_text(doc_text)
 
     if djvu_path:
         djvu_text = extract_text_from_djvu(djvu_path)
-        print("Извлеченный текст из DJVU:")
-        print(djvu_text)
         analyze_text(djvu_text)
 
     if url:
-        parse_html(url)
+        html_text = parse_html(url)
+        analyze_text(html_text)
 
 if __name__ == "__main__":
     main()

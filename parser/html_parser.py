@@ -1,7 +1,6 @@
 from bs4 import BeautifulSoup
 import requests
 
-from parser.text_analyzer import analyze_text
 
 
 def parse_html(url):
@@ -13,7 +12,6 @@ def parse_html(url):
             soup = BeautifulSoup(html_content, 'html.parser')
             paragraphs = soup.find_all('p')
             full_text = ' '.join(paragraph.text.strip() for paragraph in paragraphs)
-
             return full_text
     except Exception as e:
         print(f"Ошибка при парсинге HTML: {e}")
