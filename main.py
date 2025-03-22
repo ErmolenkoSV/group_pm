@@ -1,3 +1,9 @@
+import sys
+import os
+
+# Добавляем корневую папку проекта в sys.path
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+
 from parser.pdf_processor import extract_text_from_pdf
 from parser.docx_processor import extract_text_from_docx
 from parser.doc_processor import extract_text_from_doc
