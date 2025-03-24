@@ -10,4 +10,4 @@ def extract_text_from_pdf(file_path):
         return text
     except Exception as e:
         print(f"Ошибка при чтении PDF: {e}")
-        return None
+        return ""
