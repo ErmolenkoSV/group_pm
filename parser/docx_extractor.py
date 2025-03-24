@@ -9,4 +9,4 @@ def extract_text_from_docx(file_path):
         return '\n'.join(full_text)
     except Exception as e:
         print(f"Ошибка при чтении DOCX: {e}")
-        return None
+        return ""
