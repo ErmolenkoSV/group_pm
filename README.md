@@ -14,7 +14,7 @@
 1. Клонируйте репозиторий:
    ```bash
    git clone <repository-url>
-   cd text_extractor
+   cd group_pm
 Создайте виртуальное окружение:
 
 Copy
