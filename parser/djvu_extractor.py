@@ -8,4 +8,4 @@ def extract_text_from_djvu(file_path):
         return text
     except Exception as e:
         print(f"Ошибка при чтении DJVU: {e}")
-        return None
+        return ""
