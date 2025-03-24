@@ -1,6 +1,6 @@
-pymupdf
+fitz
 spacy
-python-docx
 langdetect
 beautifulsoup4
 requests
+python-docx
