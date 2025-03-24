@@ -1,11 +1,9 @@
-from utils import (
-    extract_text_from_pdf,
-    extract_text_from_docx,
-    extract_text_from_doc,
-    extract_text_from_djvu,
-    analyze_text,
-    parse_html
-)
+from utils.pdf_extractor import extract_text_from_pdf
+from utils.docx_extractor import extract_text_from_docx
+from utils.doc_extractor import extract_text_from_doc
+from utils.djvu_extractor import extract_text_from_djvu
+from utils.text_analyzer import analyze_text
+from utils.html_parser import parse_html
 import os
 
 def main():
